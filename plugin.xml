@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.smithimage.cordova.googleplus"
+      version="0.1.0">
+
+    <name>googleplus</name>
+    <description>Cordova GooglePlus Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova, google plus</keywords>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+                <feature name="GooglePlus">
+                        <param name="ios-package" value="GooglePlus"/>
+                </feature>
+	</config-file>
+
+
+        <header-file src="src/ios/GooglePlus.h" />
+        <source-file src="src/ios/GooglePlus.m" />
+
+	<framework src="src/ios/GooglePlus.framework" />
+	<framework src="src/ios/GoogleOpenSource.framework" />
+	<framework src="AssetsLibrary.framework" />
+	<framework src="Foundation.framework" />
+	<framework src="CoreLocation.framework" />	
+	<framework src="CoreMotion.framework" />	
+
+
+    </platform>
+
+</plugin>
