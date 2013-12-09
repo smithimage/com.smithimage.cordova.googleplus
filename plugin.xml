@@ -19,8 +19,8 @@
 	</config-file>
 
 
-        <header-file src="src/ios/GooglePlus.h" />
-        <source-file src="src/ios/GooglePlus.m" />
+        <header-file src="src/ios/GooglePlus.h"  compiler-flags="-fno-objc-arc" />
+        <source-file src="src/ios/GooglePlus.m" compiler-flags="-fno-objc-arc"  />
 
 	<framework src="src/ios/GooglePlus.framework" />
 	<framework src="src/ios/GoogleOpenSource.framework" />
