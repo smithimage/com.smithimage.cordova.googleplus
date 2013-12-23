@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="com.smithimage.cordova.googleplus"
-      version="0.1.0">
+      version="0.2.0">
 
     <name>googleplus</name>
     <description>Cordova GooglePlus Plugin</description>
