@@ -32,6 +32,8 @@
 
         <header-file src="src/ios/GooglePlus.h"  compiler-flags="-fno-objc-arc" />
         <source-file src="src/ios/GooglePlus.m" compiler-flags="-fno-objc-arc"  />
+	<header-file src="src/ios/AppDelegate+GooglePlus.h" />
+	<source-file src="src/ios/AppDelegate+GooglePlus.m" />
 
 	<framework src="src/ios/GooglePlus.framework" custom="true"/>
 	<framework src="src/ios/GoogleOpenSource.framework" custom="true"/>
