@@ -9,6 +9,24 @@
     <license>MIT</license>
     <keywords>cordova, google plus</keywords>
 
+    <!-- android -->
+    <platform name="android">
+
+        <config-file target="config.xml" parent="/widget">
+          <feature name="GooglePlus">
+            <param name="android-package" value="com.smithimage.cordova.googleplus"/>
+          </feature>
+        </config-file>
+
+       <config-file target="AndroidManifest.xml" parent="/manifest/application">
+	     <meta-data android:name="com.google.android.gms.version" android:value="4132500" />   
+        </config-file>
+        
+       <source-file src="src/android/com/smithimage/cordova/googleplus/GooglePlus.java" 
+        	target-dir="src/com/smithimage/cordova/googleplus/GooglePlus.java" />
+        <source-file src="src/android/lib/google-play-services.jar" target-dir="libs" />
+    </platform>
+
     <!-- ios -->
     <platform name="ios">
 
