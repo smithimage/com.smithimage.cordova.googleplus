@@ -23,7 +23,7 @@
         </config-file>
         
        <source-file src="src/android/com/smithimage/cordova/googleplus/GooglePlus.java" 
-        	target-dir="src/com/smithimage/cordova/googleplus/GooglePlus.java" />
+        	target-dir="src/com/smithimage/cordova/googleplus" />
         <source-file src="src/android/lib/google-play-services.jar" target-dir="libs" />
     </platform>
 
