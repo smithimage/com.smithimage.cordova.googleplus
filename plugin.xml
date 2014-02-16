@@ -14,7 +14,7 @@
 
         <config-file target="config.xml" parent="/widget">
           <feature name="GooglePlus">
-            <param name="android-package" value="com.smithimage.cordova.googleplus"/>
+            <param name="android-package" value="com.smithimage.cordova.googleplus.GooglePlus"/>
           </feature>
         </config-file>
 
